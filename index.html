@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Travelz Blog</title>
+	<link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet">
+    <!-- <script src="https://use.fontawesome.com/3230c362c5.js"></script> -->
+</head>
+<body>
+    <header class="tm-header" id="tm-header">
+        <div class="tm-header-wrapper">
+            <!-- <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button> -->
+            <div id="nav">
+                <div class="tm-site-header">
+                    <div class="mb-3 mx-auto tm-site-logo">><img style="width: 50px; height: 50px;" src="images/tree.png" alt="logo"></div>            
+                    <h1 class="text-center">Travelz Blog</h1>
+                </div>
+                <nav class="tm-nav" id="tm-nav">            
+                    <ul>
+                        <li class="tm-nav-item active"><a href="index.html" class="tm-nav-link">
+                            <i class="fas fa-home"></i>
+                            Blog Home
+                        </a></li>
+                        <li class="tm-nav-item"><a href="#single" class="tm-nav-link">
+                            <i class="fas fa-pen"></i>
+                            Single Post
+                        </a></li>
+                        <li class="tm-nav-item"><a href="about.html" target="_self" class="tm-nav-link">
+                            <i class="fas fa-users"></i>
+                            About Travelz
+                        </a></li>
+                        <li class="tm-nav-item"><a href="#contact" class="tm-nav-link">
+                            <i class="far fa-comments"></i>
+                            Contact Us
+                        </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <main class="tm-main">
+            <!-- Search form -->
+            <div class="row tm-row">
+                <div class="col-12">
+                    <form method="GET" class="form-inline tm-mb-80 tm-search-form">                
+                        <input class="form-control tm-search-input" name="query" type="text" placeholder="Search..." aria-label="Search">
+                        <button class="tm-search-button" type="submit">
+                            <i class="fas fa-search tm-search-icon" aria-hidden="true"></i>
+                        </button>                                
+                    </form>
+                </div>                
+            </div>            
+            <div class="row tm-row">
+                    <article class="col-12 col-md-3 tm-post">
+                        <hr class="tm-hr-primary">
+                        <a href="#" class="effect-lily tm-post-link tm-pt-60">
+                            <div class="tm-post-link-inner">
+                                <img src="images/trees-july192019-min.jpg" alt="Image" class="img-fluid">                            
+                            </div>
+                            <span class="position-absolute tm-new-badge">New</span>
+                            <h2 class="tm-pt-30 tm-color-success tm-post-title">Trees in July</h2>
+                        </a>                    
+                        <p class="tm-pt-30">
+                            There is a clickable image with beautiful hover effect and active title link for each post item. 
+                            Left side is a sticky menu bar. Right side is a blog content that will scroll up and down.
+                        </p>
+                        <div class="d-flex justify-content-between tm-pt-45">
+                            <span class="tm-color-success">Events</span>
+                            <span class="tm-color-success">Sept 30, 2022</span>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <span>15 comments</span>
+                            <span>by Admin Ade</span>
+                        </div>
+                    </article>
+                    <article class="col-12 col-md-6 tm-post">
+                        <hr class="tm-hr-primary">
+                        <a href="#" class="effect-lily tm-post-link tm-pt-60">
+                            <div class="tm-post-link-inner">
+                                <img src="images/tree-talk.jpg" alt="Image" class="img-fluid">                            
+                            </div>
+                            <span class="position-absolute tm-new-badge">New</span>
+                            <h2 class="tm-pt-30 tm-color-success tm-post-title">Trees talk</h2>
+                        </a>                    
+                        <p class="tm-pt-30">
+                            There is a clickable image with beautiful hover effect and active title link for each post item. 
+                            Left side is a sticky menu bar. Right side is a blog content that will scroll up and down.
+                        </p>
+                        <div class="d-flex justify-content-between tm-pt-45">
+                            <span class="tm-color- success">Events</span>
+                            <span class="tm-color-success">Sept 30, 2022</span>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <span>100 comments</span>
+                            <span>by Admin Ola</span>
+                        </div>
+                    </article>
+            </div>
+            <div class="row tm-row">
+                <article class="col-12 col-md-6 tm-post">
+                    <hr class="tm-hr-primary">
+                    <a href="#" class="effect-lily tm-post-link tm-pt-60">
+                        <div class="tm-post-link-inner">
+                            <img src="images/rots.jpg" alt="Image" class="img-fluid">                            
+                        </div>
+                        <span class="position-absolute tm-new-badge">New</span>
+                        <h2 class="tm-pt-30 tm-color-success tm-post-title">Roots of Trees</h2>
+                    </a>                    
+                    <p class="tm-pt-30">
+                        There is a clickable image with beautiful hover effect and active title link for each post item. 
+                        Left side is a sticky menu bar. Right side is a blog content that will scroll up and down.
+                    </p>
+                    <div class="d-flex justify-content-between tm-pt-45">
+                        <span class="tm-color-success">Events</span>
+                        <span class="tm-color-success">Sept 30, 2022</span>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <span>52 comments</span>
+                        <span>by Admin Viv</span>
+                    </div>
+                </article>
+                <article class="col-12 col-md-3 tm-post">
+                    <hr class="tm-hr-primary">
+                    <a href="#" class="effect-lily tm-post-link tm-pt-60">
+                        <div class="tm-post-link-inner">
+                            <img src="images/tree-1.jpg" alt="Image" class="img-fluid">                            
+                        </div>
+                        <span class="position-absolute tm-new-badge">New</span>
+                        <h2 class="tm-pt-30 tm-color-success tm-post-title">Amazing Tree View</h2>
+                    </a>                    
+                    <p class="tm-pt-30">
+                        There is a clickable image with beautiful hover effect and active title link for each post item. 
+                        Left side is a sticky menu bar. Right side is a blog content that will scroll up and down.
+                    </p>
+                    <div class="d-flex justify-content-between tm-pt-45">
+                        <span class="tm-color-success">Events</span>
+                        <span class="tm-color-success">Sept 30, 2022</span>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <span>36 comments</span>
+                        <span>by Admin Big</span>
+                    </div>
+                </article>
+        </div>
+            <div class="row tm-row">
+                <div class="col-lg-8 tm-post-col">
+                    <div class="tm-post-full">                    
+                        <div class="mb-4"  id="single">
+                            <h1 class="pt-2 tm-color-success tm-post-title">Single Post of Travelz Blog</h1>
+                            <p class="tm-mb-40">Oct 1, 2022 posted by Admin Ade</p>
+                            <p>
+                                Phasellus maximus quis est sit amet maximus. Vestibulum vel rutrum
+                                lorem, ac sodales augue. Aliquam erat volutpat. Duis lectus orci, blandit in arcu
+                                est, elementum tincidunt lectus. Praesent vel justo tempor, varius lacus a, pharetra lacus. 
+                            </p>
+                            <p>
+                                Duis pretium efficitur nunc. Mauris vehicula nibh nisi. Curabitur gravida neque
+                                dignissim, aliquet nulla sed, condimentum nulla. Pellentesque id venenatis
+                                quam, id cursus velit. Fusce semper tortor ac metus iaculis varius. Praesent
+                                aliquam ex vel lectus ornare tristique. Nunc et eros quis enim feugiat tincidunt
+                                et vitae dui.
+                            </p>
+                            <span class="d-block text-right tm-color-success">Creative . Design . Business</span>
+                        
+                        </div>
+                        
+                        <!-- Comments -->
+                        <div>
+                            <h2 class="tm-color-success tm-post-title">Comments</h2>
+                            <hr class="tm-hr-success tm-mb-45">
+                            <div class="tm-comment tm-mb-45">
+                                <figure class="tm-comment-figure">
+                                    <img src="images/v4-460px-Draw-a-Cute-Cartoon-Person-Step-14.jpg" alt="Image" class="mb-2 rounded-circle img-thumbnail">
+                                    <figcaption class="tm-color-success text-center">Mark Sonny</figcaption>
+                                </figure>
+                                <div>
+                                    <p>
+                                        Praesent aliquam ex vel lectus ornare tritique. Nunc et eros
+                                        quis enim feugiat tincidunt et vitae dui. Nullam consectetur
+                                        justo ac ex laoreet rhoncus. Nunc id leo pretium, faucibus 
+                                        sapien vel, euismod turpis.
+                                    </p>
+                                    <div class="d-flex justify-content-between">
+                                        <a href="#" class="tm-color-success">REPLY</a>
+                                        <span class="tm-color-success">Oct 2, 2022</span>
+                                    </div>                                                 
+                                </div>                                
+                            </div>
+                            <div class="tm-comment-reply tm-mb-45">
+                                <hr>
+                                <div class="tm-comment">
+                                    <figure class="tm-comment-figure">
+                                        <img src="images/a11514db272f83f711f4c67f8093356e.jpg" alt="Image" class="mb-2 rounded-circle img-thumbnail">
+                                        <figcaption class="tm-color-success text-center">Jewel Soft</figcaption>    
+                                    </figure>
+                                    <div>
+                                        <p>
+                                            Nunc et eros quis enim feugiat tincidunt et vitae dui.
+                                            Nullam consectetur justo ac ex laoreet rhoncus. Nunc
+                                            id leo pretium, faucibus sapien vel, euismod turpis.
+                                        </p>
+                                        <div class="d-flex justify-content-between">
+                                            <a href="#" class="tm-color-success">REPLY</a>
+                                            <span class="tm-color-success">Oct 2, 2022</span>
+                                        </div> 
+                                    </div>
+                                </div>                                 
+                            </div>
+                            <div class="tm-comment-reply tm-mb-45">
+                                <hr>
+                                <div class="tm-comment">
+                                    <figure class="tm-comment-figure">
+                                        <img src="images/34226c02cc15d56d9fb600bbef8095fa.png" alt="Image" class="mb-2 rounded-circle img-thumbnail">
+                                        <figcaption class="tm-color-success text-center">Jane Beauty</figcaption>    
+                                    </figure>
+                                    <div>
+                                        <p>
+                                           Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ea ratione amet quibusdam et modi facilis,
+                                            libero rerum iure ab veniam aliquid inventore.
+                                        </p>
+                                        <div class="d-flex justify-content-between">
+                                            <a href="#" class="tm-color-success">REPLY</a>
+                                            <span class="tm-color-success">Oct 2, 2022</span>
+                                        </div> 
+                                    </div>
+                                </div>                                 
+                            </div>
+                            <form action="" class="mb-5 tm-comment-form" id="contact">
+                                <h2 class="tm-color-success tm-post-title mb-4">Your comment</h2>
+                                <div class="mb-4">
+                                    <input class="form-control" name="name" type="text" placeholder="Name" aria-placeholder="Name">
+                                </div>
+                                <div class="mb-4">
+                                    <input class="form-control" name="email" type="text" placeholder="Email" aria-placeholder="Email">
+                                </div>
+                                <div class="mb-4">
+                                    <textarea class="form-control" name="message" rows="6" placeholder="Message" aria-placeholder="Message"></textarea>
+                                </div>
+                                <div class="text-right">
+                                    <button class="tm-btn tm-btn-success tm-btn-small">Submit</button>                        
+                                </div>                                
+                            </form>                          
+                        </div>
+                    </div>
+                </div>
+                <aside class="col-lg-4 tm-aside-col">
+                    <div class="tm-post-sidebar">
+                        <hr class="mb-3 tm-hr-primary">
+                        <a href="about.html" target="_self" class="tm-nav-link blog" style="background-color: #0e6b0d; color: #fff;">
+                            <i class="fas fa-users"></i>
+                            About Travelz
+                        </a>
+                        <hr class="mb-3 tm-hr-primary">
+                        <h2 class="mb-4 tm-post-title tm-color-success">Categories</h2>
+                        <ul class="tm-mb-75 pl-5 tm-category-list">
+                            <li><a href="#" class="tm-color-success">Visual Designs</a></li>
+                            <li><a href="#" class="tm-color-success">Travel Events</a></li>
+                            <li><a href="#" class="tm-color-success">Web Development</a></li>
+                            <li><a href="#" class="tm-color-success">Video and Audio</a></li>
+                        </ul>
+                        <hr class="mb-3 tm-hr-primary">
+                        <h2 class="tm-mb-40 tm-post-title tm-color-success">Related Posts</h2>
+                        <a href="#" class="d-block tm-mb-40">
+                            <figure>
+                                <img src="images/treenames.jpg" alt="Image" class="mb-3 img-fluid">
+                                <figcaption class="tm-color-success">Autumn Trees</figcaption>
+                            </figure>
+                        </a>
+                        <a href="#" class="d-block tm-mb-40">
+                            <figure>
+                                <img src="images/trees-talk-to-each-other.jpg" alt="Image" class="mb-3 img-fluid">
+                                <figcaption class="tm-color-success">Tree Base</figcaption>
+                            </figure>
+                        </a>
+                        <a href="#" class="d-block tm-mb-40">
+                            <figure>
+                                <img src="images/haunted.jpg" alt="Image" class="mb-3 img-fluid">
+                                <figcaption class="tm-color-success">Haunted Trees Spots</figcaption>
+                            </figure>
+                        </a>
+                    </div>                    
+                </aside>
+            </div>
+            <footer class="row tm-row">
+                <div class="col-md-6 col-12 tm-color-gray">
+                    <div class="tm-mb-65">
+                        <a href="https://facebook.com" class="tm-social-link">
+                            <i class="fab fa-facebook tm-social-icon"></i>
+                        </a>
+                        <a href="https://twitter.com" class="tm-social-link">
+                            <i class="fab fa-twitter tm-social-icon"></i>
+                        </a>
+                        <a href="https://instagram.com" class="tm-social-link">
+                            <i class="fab fa-instagram tm-social-icon"></i>
+                        </a>
+                        <a href="https://linkedin.com" class="tm-social-link">
+                            <i class="fab fa-linkedin tm-social-icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 tm-color-gray tm-copyright">
+                    Copyright 2022 Travelz Blog Company Co. Ltd.
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
